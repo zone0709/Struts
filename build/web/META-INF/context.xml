@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context path="/Struts1Demo2">
+    <Resource name="phat" type="javax.sql.DataSource" auth="Controller"
+    driverClassName="com.microsoft.sqlserver.jdbc.SQLServerDriver"
+    url="jdbc:sqlserver://localhost:1433;databaseName=DemoLogin"
+    username="sa" password="123456"/>
+</Context>
